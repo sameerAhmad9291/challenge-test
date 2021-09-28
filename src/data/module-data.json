@@ -1,0 +1,87 @@
+{
+  "data": {
+    "id": 1,
+    "imageUrl": "http://image.com",
+    "headerImageUrl": "http://image.com",
+    "levels": [
+      {
+        "id": 1,
+        "moduleId": 1,
+        "name": "Getting Started",
+        "order": 0,
+        "exercises": [
+          {
+            "id": 1,
+            "audioUrl": "exercise.mp3",
+            "videoUrl": null,
+            "levelId": 1,
+            "name": "Overview",
+            "order": 1
+          },
+          {
+            "id": 2,
+            "audioUrl": "",
+            "videoUrl": "",
+            "levelId": 1,
+            "name": "My Exercise",
+            "order": 2
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "moduleId": 1,
+        "name": "Next Steps",
+        "order": 0,
+        "exercises": [
+          {
+            "id": 5,
+            "audioUrl": null,
+            "videoUrl": "video.mp4",
+            "levelId": 1,
+            "name": "Overview",
+            "order": 2
+          },
+          {
+            "id": 8,
+            "audioUrl": "audio-1.mp3",
+            "videoUrl": null,
+            "levelId": 1,
+            "name": "Video Clip",
+            "order": 1
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "moduleId": 1,
+        "name": "Final Hurdle",
+        "order": 0,
+        "exercises": [
+          {
+            "id": 12,
+            "audioUrl": null,
+            "videoUrl": "my-video.mp4",
+            "levelId": 1,
+            "name": "Exercise Name",
+            "order": 1
+          },
+          {
+            "id": 14,
+            "audioUrl": "some-audio.mp3",
+            "videoUrl": null,
+            "levelId": 1,
+            "name": "Final Exercise",
+            "order": 2
+          }
+        ]
+      }
+    ],
+    "name": "My Module",
+    "order": 0,
+    "draft": false
+  },
+  "id": 1,
+  "loading": false,
+  "error": ""
+}

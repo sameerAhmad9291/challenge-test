@@ -1,0 +1,194 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.moduleContainer {
+  width: 500px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-color: #fff7f6;
+  padding: 3em;
+}
+
+.exercise {
+  margin-left: 1em;
+  margin-top: 2em;
+}
+
+.exerciseContent {
+  background-color: white;
+  border-radius: 27px;
+  box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.25);
+  width: 436px;
+  height: 63px;
+  margin-top: 0.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.moduleContent {
+  margin-left: 1em;
+}
+
+.moduleTitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24pt;
+  text-align: left;
+  margin-bottom: 1em;
+}
+
+.levelTitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18pt;
+  text-align: left;
+  margin-top: 3em;
+}
+
+.exerciseTitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16pt;
+  text-align: left;
+  margin-top: 0.5em;
+}
+
+.headphones {
+  margin-left: 1em;
+}
+
+.playButton {
+  margin-left: 1em;
+}
+
+button {
+  background: #dd7777;
+  box-shadow: 0px 4px 35px rgba(91, 91, 91, 0.25);
+  border-radius: 27px;
+  height: 50px;
+  width: 256px;
+  border: 0px;
+  color: white;
+  display: inline-block;
+}
+
+button:hover {
+  outline: none;
+}
+
+button:active {
+  border: 0px;
+  background: rgba(221, 119, 119, 0.3);
+  outline: none;
+}
+
+.switcherContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 200px;
+  background-color: #fff7f6;
+}
+
+.switcherItems {
+  width: 50px;
+  overflow: hidden;
+  margin-bottom: 5em;
+}
+
+.switcherItemsInner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  animation-name: example;
+  width: 150px;
+  left: -150px;
+  position: relative;
+}
+
+.stage1 {
+  animation-name: stage1;
+  animation-duration: 0.5s;
+  margin-left: 50px;
+}
+
+.stage2 {
+  animation-name: stage2;
+  animation-duration: 0.5s;
+  margin-left: 100px;
+}
+
+.stage3 {
+  animation-name: stage3;
+  animation-duration: 0.5s;
+  margin-left: 150px;
+}
+
+.switcherItem {
+  width: 50px;
+}
+
+.switcherItem input {
+  width: 40px;
+}
+
+@keyframes stage1 {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: 50px;
+  }
+}
+
+@keyframes stage2 {
+  0% {
+    margin-left: 50px;
+  }
+  100% {
+    margin-left: 100px;
+  }
+}
+
+@keyframes stage3 {
+  0% {
+    margin-left: 100px;
+  }
+  100% {
+    margin-left: 150px;
+  }
+}
+
+.accordion {
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+}
+
+.collapse {
+  display: none
+}
+
+.collapse.in {
+  display: block
+}

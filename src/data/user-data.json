@@ -1,0 +1,14 @@
+{
+  "id": 1,
+  "email": "test@test.com",
+  "completedExercises": [
+    {
+      "completedAt": "2020-08-25 08:30:00",
+      "exerciseId": 1
+    },
+    {
+      "completedAt": "2020-08-25 09:45:00",
+      "exerciseId": 2
+    }
+  ]
+}
