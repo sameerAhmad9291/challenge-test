@@ -6,7 +6,7 @@
 
 
 
-## Inflow Coding Test
+## Coding Test
 
 This coding test is designed to test your skills for transforming and manipulating data in Javascript. There is also a bonus question on managing state in React. The expected time taken to complete the test is 2 hours.
 
